@@ -2,8 +2,8 @@ package client
 
 import (
 	"crypto/tls"
-	"github.com/ztalab/cfssl/auth"
-	"github.com/ztalab/cfssl/helpers"
+	"github.com/cloudslit/cfssl/auth"
+	"github.com/cloudslit/cfssl/helpers"
 	"net"
 	"strings"
 	"testing"

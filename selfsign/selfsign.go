@@ -15,9 +15,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ztalab/cfssl/config"
-	cferr "github.com/ztalab/cfssl/errors"
-	"github.com/ztalab/cfssl/signer"
+	"github.com/cloudslit/cfssl/config"
+	cferr "github.com/cloudslit/cfssl/errors"
+	"github.com/cloudslit/cfssl/signer"
 )
 
 const threeMonths = 2190 * time.Hour

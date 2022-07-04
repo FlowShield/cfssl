@@ -6,12 +6,12 @@ import (
 	"os"
 	"testing"
 
+	"github.com/cloudslit/cfssl/config"
+	"github.com/cloudslit/cfssl/csr"
+	"github.com/cloudslit/cfssl/helpers"
+	"github.com/cloudslit/cfssl/initca"
+	"github.com/cloudslit/cfssl/selfsign"
 	"github.com/kisom/goutils/assert"
-	"github.com/ztalab/cfssl/config"
-	"github.com/ztalab/cfssl/csr"
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/initca"
-	"github.com/ztalab/cfssl/selfsign"
 )
 
 func tempName() (string, error) {

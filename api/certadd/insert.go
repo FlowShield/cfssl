@@ -9,11 +9,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/ztalab/cfssl/api"
-	"github.com/ztalab/cfssl/certdb"
-	"github.com/ztalab/cfssl/errors"
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/ocsp"
+	"github.com/cloudslit/cfssl/api"
+	"github.com/cloudslit/cfssl/certdb"
+	"github.com/cloudslit/cfssl/errors"
+	"github.com/cloudslit/cfssl/helpers"
+	"github.com/cloudslit/cfssl/ocsp"
 
 	"encoding/base64"
 
@@ -21,7 +21,7 @@ import (
 )
 
 // This is patterned on
-// https://github.com/ztalab/cfssl/blob/master/api/revoke/revoke.go. This
+// https://github.com/cloudslit/cfssl/blob/master/api/revoke/revoke.go. This
 // file defines an HTTP endpoint handler that accepts certificates and
 // inserts them into a certdb, optionally also creating an OCSP
 // response for them. If so, it will also return the OCSP response as

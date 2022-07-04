@@ -2,8 +2,8 @@
 package gencrl
 
 import (
-	"github.com/ztalab/cfssl/cli"
-	"github.com/ztalab/cfssl/crl"
+	"github.com/cloudslit/cfssl/cli"
+	"github.com/cloudslit/cfssl/crl"
 	"strings"
 )
 

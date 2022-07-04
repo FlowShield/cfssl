@@ -6,11 +6,11 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/ztalab/cfssl/api"
-	"github.com/ztalab/cfssl/csr"
-	"github.com/ztalab/cfssl/errors"
-	"github.com/ztalab/cfssl/initca"
-	"github.com/ztalab/cfssl/log"
+	"github.com/cloudslit/cfssl/api"
+	"github.com/cloudslit/cfssl/csr"
+	"github.com/cloudslit/cfssl/errors"
+	"github.com/cloudslit/cfssl/initca"
+	"github.com/cloudslit/cfssl/log"
 )
 
 // A NewCA contains a private key and certificate suitable for serving

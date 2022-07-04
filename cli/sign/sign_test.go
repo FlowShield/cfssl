@@ -3,9 +3,9 @@ package sign
 import (
 	"testing"
 
-	"github.com/ztalab/cfssl/certdb/sql"
-	"github.com/ztalab/cfssl/certdb/testdb"
-	"github.com/ztalab/cfssl/cli"
+	"github.com/cloudslit/cfssl/certdb/sql"
+	"github.com/cloudslit/cfssl/certdb/testdb"
+	"github.com/cloudslit/cfssl/cli"
 )
 
 func TestSignFromConfig(t *testing.T) {

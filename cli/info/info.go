@@ -5,12 +5,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/ztalab/cfssl/api/client"
-	"github.com/ztalab/cfssl/cli"
-	"github.com/ztalab/cfssl/cli/sign"
-	"github.com/ztalab/cfssl/errors"
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/info"
+	"github.com/cloudslit/cfssl/api/client"
+	"github.com/cloudslit/cfssl/cli"
+	"github.com/cloudslit/cfssl/cli/sign"
+	"github.com/cloudslit/cfssl/errors"
+	"github.com/cloudslit/cfssl/helpers"
+	"github.com/cloudslit/cfssl/info"
 
 	goerr "errors"
 )

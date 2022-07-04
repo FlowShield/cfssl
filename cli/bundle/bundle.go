@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ztalab/cfssl/bundler"
-	"github.com/ztalab/cfssl/cli"
-	"github.com/ztalab/cfssl/ubiquity"
+	"github.com/cloudslit/cfssl/bundler"
+	"github.com/cloudslit/cfssl/cli"
+	"github.com/cloudslit/cfssl/ubiquity"
 )
 
 // Usage text of 'cfssl bundle'

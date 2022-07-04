@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/ztalab/cfssl/cli"
-	"github.com/ztalab/cfssl/csr"
-	"github.com/ztalab/cfssl/initca"
+	"github.com/cloudslit/cfssl/cli"
+	"github.com/cloudslit/cfssl/csr"
+	"github.com/cloudslit/cfssl/initca"
 )
 
 var genkeyUsageText = `cfssl genkey -- generate a new key and CSR

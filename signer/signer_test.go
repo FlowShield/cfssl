@@ -9,8 +9,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ztalab/cfssl/config"
-	"github.com/ztalab/cfssl/csr"
+	"github.com/cloudslit/cfssl/config"
+	"github.com/cloudslit/cfssl/csr"
 )
 
 func TestAppendIf(t *testing.T) {

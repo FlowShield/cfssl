@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/ztalab/cfssl/api/client"
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/info"
-	"github.com/ztalab/cfssl/log"
+	"github.com/cloudslit/cfssl/api/client"
+	"github.com/cloudslit/cfssl/helpers"
+	"github.com/cloudslit/cfssl/info"
+	"github.com/cloudslit/cfssl/log"
 )
 
 // This package contains CFSSL integration.

@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ztalab/cfssl/cli"
+	"github.com/cloudslit/cfssl/cli"
 )
 
 func TestServe(t *testing.T) {

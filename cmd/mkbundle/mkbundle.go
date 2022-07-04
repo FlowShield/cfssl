@@ -14,8 +14,8 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/ztalab/cfssl/log"
-	"github.com/ztalab/cfssl/revoke"
+	"github.com/cloudslit/cfssl/log"
+	"github.com/cloudslit/cfssl/revoke"
 )
 
 // worker does all the parsing and validation of the certificate(s)

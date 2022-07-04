@@ -21,10 +21,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ztalab/cfssl/errors"
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/log"
-	"github.com/ztalab/cfssl/ubiquity"
+	"github.com/cloudslit/cfssl/errors"
+	"github.com/cloudslit/cfssl/helpers"
+	"github.com/cloudslit/cfssl/log"
+	"github.com/cloudslit/cfssl/ubiquity"
 )
 
 // IntermediateStash contains the path to the directory where

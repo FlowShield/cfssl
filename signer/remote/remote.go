@@ -6,13 +6,13 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/ztalab/cfssl/api/client"
-	"github.com/ztalab/cfssl/certdb"
-	"github.com/ztalab/cfssl/config"
-	cferr "github.com/ztalab/cfssl/errors"
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/info"
-	"github.com/ztalab/cfssl/signer"
+	"github.com/cloudslit/cfssl/api/client"
+	"github.com/cloudslit/cfssl/certdb"
+	"github.com/cloudslit/cfssl/config"
+	cferr "github.com/cloudslit/cfssl/errors"
+	"github.com/cloudslit/cfssl/helpers"
+	"github.com/cloudslit/cfssl/info"
+	"github.com/cloudslit/cfssl/signer"
 )
 
 // A Signer represents a CFSSL instance running as signing server.

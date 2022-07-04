@@ -8,7 +8,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/ztalab/cfssl/api"
+	"github.com/cloudslit/cfssl/api"
 )
 
 const (

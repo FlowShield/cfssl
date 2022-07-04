@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
+	"github.com/cloudslit/cfssl/config"
+	"github.com/cloudslit/cfssl/csr"
+	cferr "github.com/cloudslit/cfssl/errors"
+	"github.com/cloudslit/cfssl/helpers"
+	"github.com/cloudslit/cfssl/log"
+	"github.com/cloudslit/cfssl/signer"
 	"github.com/google/certificate-transparency-go"
 	"github.com/zmap/zlint/v2/lint"
-	"github.com/ztalab/cfssl/config"
-	"github.com/ztalab/cfssl/csr"
-	cferr "github.com/ztalab/cfssl/errors"
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/log"
-	"github.com/ztalab/cfssl/signer"
 )
 
 const (

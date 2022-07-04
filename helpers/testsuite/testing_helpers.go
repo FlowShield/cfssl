@@ -15,8 +15,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ztalab/cfssl/config"
-	"github.com/ztalab/cfssl/csr"
+	"github.com/cloudslit/cfssl/config"
+	"github.com/cloudslit/cfssl/csr"
 )
 
 // CFSSLServerData is the data with which a server is initialized. These fields

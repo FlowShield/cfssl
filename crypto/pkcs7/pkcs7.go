@@ -52,7 +52,7 @@ import (
 	"encoding/asn1"
 	"errors"
 
-	cferr "github.com/ztalab/cfssl/errors"
+	cferr "github.com/cloudslit/cfssl/errors"
 )
 
 // Types used for asn1 Unmarshaling.

@@ -1,4 +1,4 @@
-module github.com/ztalab/cfssl
+module github.com/cloudslit/cfssl
 
 go 1.14
 

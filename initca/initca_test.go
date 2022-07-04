@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ztalab/cfssl/config"
-	"github.com/ztalab/cfssl/csr"
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/signer"
-	"github.com/ztalab/cfssl/signer/local"
+	"github.com/cloudslit/cfssl/config"
+	"github.com/cloudslit/cfssl/csr"
+	"github.com/cloudslit/cfssl/helpers"
+	"github.com/cloudslit/cfssl/signer"
+	"github.com/cloudslit/cfssl/signer/local"
 )
 
 var validKeyParams = []csr.KeyRequest{

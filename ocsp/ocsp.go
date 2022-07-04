@@ -17,9 +17,9 @@ import (
 	"strings"
 	"time"
 
-	cferr "github.com/ztalab/cfssl/errors"
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/log"
+	cferr "github.com/cloudslit/cfssl/errors"
+	"github.com/cloudslit/cfssl/helpers"
+	"github.com/cloudslit/cfssl/log"
 	"golang.org/x/crypto/ocsp"
 )
 

@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ztalab/cfssl/config"
-	"github.com/ztalab/cfssl/helpers"
+	"github.com/cloudslit/cfssl/config"
+	"github.com/cloudslit/cfssl/helpers"
 )
 
 const (

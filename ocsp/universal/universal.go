@@ -1,8 +1,8 @@
 package universal
 
 import (
-	"github.com/ztalab/cfssl/ocsp"
-	ocspConfig "github.com/ztalab/cfssl/ocsp/config"
+	"github.com/cloudslit/cfssl/ocsp"
+	ocspConfig "github.com/cloudslit/cfssl/ocsp/config"
 )
 
 // NewSignerFromConfig generates a new OCSP signer from a config object.

@@ -12,11 +12,11 @@ import (
 	"os"
 	"testing"
 
+	"github.com/cloudslit/cfssl/certdb"
+	"github.com/cloudslit/cfssl/certdb/sql"
+	"github.com/cloudslit/cfssl/certdb/testdb"
+	"github.com/cloudslit/cfssl/helpers"
 	ct "github.com/google/certificate-transparency-go"
-	"github.com/ztalab/cfssl/certdb"
-	"github.com/ztalab/cfssl/certdb/sql"
-	"github.com/ztalab/cfssl/certdb/testdb"
-	"github.com/ztalab/cfssl/helpers"
 	"golang.org/x/crypto/ocsp"
 )
 

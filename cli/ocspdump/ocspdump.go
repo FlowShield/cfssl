@@ -6,9 +6,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ztalab/cfssl/certdb/dbconf"
-	"github.com/ztalab/cfssl/certdb/sql"
-	"github.com/ztalab/cfssl/cli"
+	"github.com/cloudslit/cfssl/certdb/dbconf"
+	"github.com/cloudslit/cfssl/certdb/sql"
+	"github.com/cloudslit/cfssl/cli"
 )
 
 // Usage text of 'cfssl ocspdump'

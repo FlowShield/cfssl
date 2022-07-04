@@ -13,7 +13,7 @@ package core
 import (
 	"time"
 
-	"github.com/ztalab/cfssl/csr"
+	"github.com/cloudslit/cfssl/csr"
 )
 
 // A Root stores information about a trusted root.

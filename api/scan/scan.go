@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/ztalab/cfssl/api"
-	"github.com/ztalab/cfssl/errors"
-	"github.com/ztalab/cfssl/log"
-	"github.com/ztalab/cfssl/scan"
+	"github.com/cloudslit/cfssl/api"
+	"github.com/cloudslit/cfssl/errors"
+	"github.com/cloudslit/cfssl/log"
+	"github.com/cloudslit/cfssl/scan"
 )
 
 // scanHandler is an HTTP handler that accepts GET parameters for host (required)

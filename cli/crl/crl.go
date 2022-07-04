@@ -4,13 +4,13 @@ package crl
 import (
 	"os"
 
-	"github.com/ztalab/cfssl/certdb/dbconf"
-	certsql "github.com/ztalab/cfssl/certdb/sql"
-	"github.com/ztalab/cfssl/cli"
-	"github.com/ztalab/cfssl/crl"
-	cferr "github.com/ztalab/cfssl/errors"
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/log"
+	"github.com/cloudslit/cfssl/certdb/dbconf"
+	certsql "github.com/cloudslit/cfssl/certdb/sql"
+	"github.com/cloudslit/cfssl/cli"
+	"github.com/cloudslit/cfssl/crl"
+	cferr "github.com/cloudslit/cfssl/errors"
+	"github.com/cloudslit/cfssl/helpers"
+	"github.com/cloudslit/cfssl/log"
 
 	"github.com/jmoiron/sqlx"
 )

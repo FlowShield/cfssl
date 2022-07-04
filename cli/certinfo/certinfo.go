@@ -7,11 +7,11 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/cloudslit/cfssl/certdb/dbconf"
+	"github.com/cloudslit/cfssl/certdb/sql"
+	"github.com/cloudslit/cfssl/certinfo"
+	"github.com/cloudslit/cfssl/cli"
 	"github.com/jmoiron/sqlx"
-	"github.com/ztalab/cfssl/certdb/dbconf"
-	"github.com/ztalab/cfssl/certdb/sql"
-	"github.com/ztalab/cfssl/certinfo"
-	"github.com/ztalab/cfssl/cli"
 )
 
 // Usage text of 'cfssl certinfo'

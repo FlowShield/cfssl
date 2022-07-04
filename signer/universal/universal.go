@@ -5,13 +5,13 @@ import (
 	"crypto/x509"
 	"net/http"
 
-	"github.com/ztalab/cfssl/certdb"
-	"github.com/ztalab/cfssl/config"
-	cferr "github.com/ztalab/cfssl/errors"
-	"github.com/ztalab/cfssl/info"
-	"github.com/ztalab/cfssl/signer"
-	"github.com/ztalab/cfssl/signer/local"
-	"github.com/ztalab/cfssl/signer/remote"
+	"github.com/cloudslit/cfssl/certdb"
+	"github.com/cloudslit/cfssl/config"
+	cferr "github.com/cloudslit/cfssl/errors"
+	"github.com/cloudslit/cfssl/info"
+	"github.com/cloudslit/cfssl/signer"
+	"github.com/cloudslit/cfssl/signer/local"
+	"github.com/cloudslit/cfssl/signer/remote"
 )
 
 // Signer represents a universal signer which is both local and remote

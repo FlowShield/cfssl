@@ -13,8 +13,8 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/log"
+	"github.com/cloudslit/cfssl/helpers"
+	"github.com/cloudslit/cfssl/log"
 )
 
 // SHA1RawPublicKey returns a SHA1 hash of the raw certificate public key

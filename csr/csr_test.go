@@ -12,8 +12,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/ztalab/cfssl/errors"
-	"github.com/ztalab/cfssl/helpers"
+	"github.com/cloudslit/cfssl/errors"
+	"github.com/cloudslit/cfssl/helpers"
 )
 
 //TestNew validate the CertificateRequest created to return with a KeyRequest

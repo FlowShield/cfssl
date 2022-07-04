@@ -21,8 +21,8 @@ import (
 
 	"golang.org/x/crypto/ocsp"
 
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/log"
+	"github.com/cloudslit/cfssl/helpers"
+	"github.com/cloudslit/cfssl/log"
 )
 
 // HardFail determines whether the failure to check the revocation

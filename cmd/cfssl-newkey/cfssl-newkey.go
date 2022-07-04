@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ztalab/cfssl/cli"
-	"github.com/ztalab/cfssl/cli/genkey"
-	"github.com/ztalab/cfssl/config"
+	"github.com/cloudslit/cfssl/cli"
+	"github.com/cloudslit/cfssl/cli/genkey"
+	"github.com/cloudslit/cfssl/config"
 )
 
 // main defines the newkey usage and registers all defined commands and flags.

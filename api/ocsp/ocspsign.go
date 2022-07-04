@@ -10,11 +10,11 @@ import (
 	"io/ioutil"
 	"time"
 
-	"github.com/ztalab/cfssl/api"
-	"github.com/ztalab/cfssl/errors"
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/log"
-	"github.com/ztalab/cfssl/ocsp"
+	"github.com/cloudslit/cfssl/api"
+	"github.com/cloudslit/cfssl/errors"
+	"github.com/cloudslit/cfssl/helpers"
+	"github.com/cloudslit/cfssl/log"
+	"github.com/cloudslit/cfssl/ocsp"
 )
 
 // A Handler accepts requests with a certficate parameter

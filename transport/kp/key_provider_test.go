@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ztalab/cfssl/csr"
-	"github.com/ztalab/cfssl/transport/core"
+	"github.com/cloudslit/cfssl/csr"
+	"github.com/cloudslit/cfssl/transport/core"
 )
 
 const (

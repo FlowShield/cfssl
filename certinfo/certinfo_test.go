@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ztalab/cfssl/certdb"
-	"github.com/ztalab/cfssl/certdb/sql"
-	"github.com/ztalab/cfssl/certdb/testdb"
+	"github.com/cloudslit/cfssl/certdb"
+	"github.com/cloudslit/cfssl/certdb/sql"
+	"github.com/cloudslit/cfssl/certdb/testdb"
 )
 
 const (

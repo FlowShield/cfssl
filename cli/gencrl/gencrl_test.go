@@ -3,7 +3,7 @@ package gencrl
 import (
 	"testing"
 
-	"github.com/ztalab/cfssl/cli"
+	"github.com/cloudslit/cfssl/cli"
 )
 
 func TestGencrl(t *testing.T) {

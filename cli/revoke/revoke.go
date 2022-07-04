@@ -4,11 +4,11 @@ package revoke
 import (
 	"errors"
 
-	"github.com/ztalab/cfssl/certdb/dbconf"
-	"github.com/ztalab/cfssl/certdb/sql"
-	"github.com/ztalab/cfssl/cli"
-	"github.com/ztalab/cfssl/log"
-	"github.com/ztalab/cfssl/ocsp"
+	"github.com/cloudslit/cfssl/certdb/dbconf"
+	"github.com/cloudslit/cfssl/certdb/sql"
+	"github.com/cloudslit/cfssl/cli"
+	"github.com/cloudslit/cfssl/log"
+	"github.com/cloudslit/cfssl/ocsp"
 )
 
 var revokeUsageTxt = `cfssl revoke -- revoke a certificate in the certificate store

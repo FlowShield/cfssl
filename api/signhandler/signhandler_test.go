@@ -8,13 +8,13 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/ztalab/cfssl/api"
-	"github.com/ztalab/cfssl/certdb"
-	"github.com/ztalab/cfssl/certdb/sql"
-	"github.com/ztalab/cfssl/certdb/testdb"
-	"github.com/ztalab/cfssl/config"
-	"github.com/ztalab/cfssl/signer"
-	"github.com/ztalab/cfssl/signer/local"
+	"github.com/cloudslit/cfssl/api"
+	"github.com/cloudslit/cfssl/certdb"
+	"github.com/cloudslit/cfssl/certdb/sql"
+	"github.com/cloudslit/cfssl/certdb/testdb"
+	"github.com/cloudslit/cfssl/config"
+	"github.com/cloudslit/cfssl/signer"
+	"github.com/cloudslit/cfssl/signer/local"
 )
 
 const (

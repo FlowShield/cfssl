@@ -15,7 +15,7 @@ import (
 	"encoding/pem"
 	"errors"
 	"fmt"
-	"github.com/ztalab/cfssl/hook"
+	"github.com/cloudslit/cfssl/hook"
 	"io/ioutil"
 	"os"
 
@@ -27,10 +27,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ztalab/cfssl/crypto/pkcs7"
-	cferr "github.com/ztalab/cfssl/errors"
-	"github.com/ztalab/cfssl/helpers/derhelpers"
-	"github.com/ztalab/cfssl/log"
+	"github.com/cloudslit/cfssl/crypto/pkcs7"
+	cferr "github.com/cloudslit/cfssl/errors"
+	"github.com/cloudslit/cfssl/helpers/derhelpers"
+	"github.com/cloudslit/cfssl/log"
 	"golang.org/x/crypto/pkcs12"
 )
 

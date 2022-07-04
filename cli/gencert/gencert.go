@@ -5,14 +5,14 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/ztalab/cfssl/api/generator"
-	"github.com/ztalab/cfssl/cli"
-	"github.com/ztalab/cfssl/cli/genkey"
-	"github.com/ztalab/cfssl/cli/sign"
-	"github.com/ztalab/cfssl/csr"
-	"github.com/ztalab/cfssl/initca"
-	"github.com/ztalab/cfssl/log"
-	"github.com/ztalab/cfssl/signer"
+	"github.com/cloudslit/cfssl/api/generator"
+	"github.com/cloudslit/cfssl/cli"
+	"github.com/cloudslit/cfssl/cli/genkey"
+	"github.com/cloudslit/cfssl/cli/sign"
+	"github.com/cloudslit/cfssl/csr"
+	"github.com/cloudslit/cfssl/initca"
+	"github.com/cloudslit/cfssl/log"
+	"github.com/cloudslit/cfssl/signer"
 )
 
 var gencertUsageText = `cfssl gencert -- generate a new key and signed certificate

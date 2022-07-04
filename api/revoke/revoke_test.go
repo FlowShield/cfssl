@@ -16,11 +16,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ztalab/cfssl/api"
-	"github.com/ztalab/cfssl/certdb"
-	"github.com/ztalab/cfssl/certdb/sql"
-	"github.com/ztalab/cfssl/certdb/testdb"
-	"github.com/ztalab/cfssl/ocsp"
+	"github.com/cloudslit/cfssl/api"
+	"github.com/cloudslit/cfssl/certdb"
+	"github.com/cloudslit/cfssl/certdb/sql"
+	"github.com/cloudslit/cfssl/certdb/testdb"
+	"github.com/cloudslit/cfssl/ocsp"
 
 	stdocsp "golang.org/x/crypto/ocsp"
 )

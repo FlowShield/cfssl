@@ -12,13 +12,13 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ztalab/cfssl/config"
-	"github.com/ztalab/cfssl/csr"
-	cferr "github.com/ztalab/cfssl/errors"
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/log"
-	"github.com/ztalab/cfssl/signer"
-	"github.com/ztalab/cfssl/signer/local"
+	"github.com/cloudslit/cfssl/config"
+	"github.com/cloudslit/cfssl/csr"
+	cferr "github.com/cloudslit/cfssl/errors"
+	"github.com/cloudslit/cfssl/helpers"
+	"github.com/cloudslit/cfssl/log"
+	"github.com/cloudslit/cfssl/signer"
+	"github.com/cloudslit/cfssl/signer/local"
 )
 
 // validator contains the default validation logic for certificate

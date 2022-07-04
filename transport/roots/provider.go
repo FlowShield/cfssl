@@ -7,8 +7,8 @@ import (
 	"io/ioutil"
 	"sync"
 
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/transport/core"
+	"github.com/cloudslit/cfssl/helpers"
+	"github.com/cloudslit/cfssl/transport/core"
 )
 
 // Providers is a mapping of supported providers and the functions
