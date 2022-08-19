@@ -195,7 +195,7 @@ type CFSSL struct {
 }
 
 // SignCSR requests a certificate from a CFSSL signer.
-func (cap *CFSSL) SignCSR(csrPEM []byte) (cert []byte, err error) {
+func (cap *CFSSL) SignCSR(csrPEM []byte, metaData map[string]interface{}) (cert []byte, err error) {
 	p, _ := pem.Decode(csrPEM)
 	if p == nil || p.Type != "CERTIFICATE REQUEST" {
 		return nil, errors.New("transport: invalid PEM-encoded certificate signing request")
@@ -218,10 +218,11 @@ func (cap *CFSSL) SignCSR(csrPEM []byte) (cert []byte, err error) {
 	}
 
 	sreq := &signer.SignRequest{
-		Hosts:   hosts,
-		Request: string(csrPEM),
-		Profile: cap.Profile,
-		Label:   cap.Label,
+		Hosts:    hosts,
+		Request:  string(csrPEM),
+		Profile:  cap.Profile,
+		Label:    cap.Label,
+		Metadata: metaData,
 	}
 
 	out, err := json.Marshal(sreq)

@@ -8,7 +8,7 @@ package ca
 type CertificateAuthority interface {
 	// SignCSR submits a PKCS #10 certificate signing request to a
 	// CA for signing.
-	SignCSR(csrPEM []byte) (cert []byte, err error)
+	SignCSR(csrPEM []byte, metaData map[string]interface{}) (cert []byte, err error)
 
 	// CACertificate returns the certificate authority's
 	// certificate.

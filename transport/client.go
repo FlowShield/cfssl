@@ -235,7 +235,7 @@ func (tr *Transport) RefreshKeys() (err error) {
 
 		log.Debug("requesting certificate from CA")
 		// 调用 CA
-		cert, err := tr.CA.SignCSR(req)
+		cert, err := tr.CA.SignCSR(req, nil)
 		if err != nil {
 			if tr.Provider.SignalFailure(err) {
 				return tr.RefreshKeys()

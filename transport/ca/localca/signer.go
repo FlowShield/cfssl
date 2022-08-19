@@ -66,7 +66,7 @@ var errDisabled = errors.New("transport: local CA is deactivated")
 
 // SignCSR submits a PKCS #10 certificate signing request to a CA for
 // signing.
-func (lca *CA) SignCSR(csrPEM []byte) ([]byte, error) {
+func (lca *CA) SignCSR(csrPEM []byte, metaData map[string]interface{}) ([]byte, error) {
 	if lca == nil || lca.s == nil {
 		return nil, errNotSetup
 	}
@@ -97,10 +97,11 @@ func (lca *CA) SignCSR(csrPEM []byte) ([]byte, error) {
 	}
 
 	sreq := signer.SignRequest{
-		Hosts:   hosts,
-		Request: string(csrPEM),
-		Profile: lca.Profile,
-		Label:   lca.Label,
+		Hosts:    hosts,
+		Request:  string(csrPEM),
+		Profile:  lca.Profile,
+		Label:    lca.Label,
+		Metadata: metaData,
 	}
 
 	return lca.s.Sign(sreq)
