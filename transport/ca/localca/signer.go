@@ -9,12 +9,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/cloudslit/cfssl/config"
-	"github.com/cloudslit/cfssl/csr"
-	"github.com/cloudslit/cfssl/helpers"
-	"github.com/cloudslit/cfssl/initca"
-	"github.com/cloudslit/cfssl/signer"
-	"github.com/cloudslit/cfssl/signer/local"
+	"github.com/flowshield/cfssl/config"
+	"github.com/flowshield/cfssl/csr"
+	"github.com/flowshield/cfssl/helpers"
+	"github.com/flowshield/cfssl/initca"
+	"github.com/flowshield/cfssl/signer"
+	"github.com/flowshield/cfssl/signer/local"
 	"github.com/kisom/goutils/assert"
 )
 

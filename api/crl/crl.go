@@ -8,12 +8,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/cloudslit/cfssl/api"
-	"github.com/cloudslit/cfssl/certdb"
-	"github.com/cloudslit/cfssl/crl"
-	"github.com/cloudslit/cfssl/errors"
-	"github.com/cloudslit/cfssl/helpers"
-	"github.com/cloudslit/cfssl/log"
+	"github.com/flowshield/cfssl/api"
+	"github.com/flowshield/cfssl/certdb"
+	"github.com/flowshield/cfssl/crl"
+	"github.com/flowshield/cfssl/errors"
+	"github.com/flowshield/cfssl/helpers"
+	"github.com/flowshield/cfssl/log"
 )
 
 // A Handler accepts requests with a serial number parameter

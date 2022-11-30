@@ -7,7 +7,7 @@ import (
 
 	"golang.org/x/crypto/ocsp"
 
-	"github.com/cloudslit/cfssl/helpers"
+	"github.com/flowshield/cfssl/helpers"
 )
 
 const (

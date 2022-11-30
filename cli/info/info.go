@@ -5,12 +5,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/cloudslit/cfssl/api/client"
-	"github.com/cloudslit/cfssl/cli"
-	"github.com/cloudslit/cfssl/cli/sign"
-	"github.com/cloudslit/cfssl/errors"
-	"github.com/cloudslit/cfssl/helpers"
-	"github.com/cloudslit/cfssl/info"
+	"github.com/flowshield/cfssl/api/client"
+	"github.com/flowshield/cfssl/cli"
+	"github.com/flowshield/cfssl/cli/sign"
+	"github.com/flowshield/cfssl/errors"
+	"github.com/flowshield/cfssl/helpers"
+	"github.com/flowshield/cfssl/info"
 
 	goerr "errors"
 )

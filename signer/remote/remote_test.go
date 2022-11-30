@@ -12,14 +12,14 @@ import (
 	"testing"
 	"time"
 
-	apiinfo "github.com/cloudslit/cfssl/api/info"
-	apisign "github.com/cloudslit/cfssl/api/signhandler"
-	"github.com/cloudslit/cfssl/config"
-	"github.com/cloudslit/cfssl/helpers"
-	"github.com/cloudslit/cfssl/helpers/testsuite"
-	"github.com/cloudslit/cfssl/info"
-	"github.com/cloudslit/cfssl/signer"
-	"github.com/cloudslit/cfssl/signer/local"
+	apiinfo "github.com/flowshield/cfssl/api/info"
+	apisign "github.com/flowshield/cfssl/api/signhandler"
+	"github.com/flowshield/cfssl/config"
+	"github.com/flowshield/cfssl/helpers"
+	"github.com/flowshield/cfssl/helpers/testsuite"
+	"github.com/flowshield/cfssl/info"
+	"github.com/flowshield/cfssl/signer"
+	"github.com/flowshield/cfssl/signer/local"
 )
 
 const (

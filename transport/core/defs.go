@@ -13,7 +13,7 @@ package core
 import (
 	"time"
 
-	"github.com/cloudslit/cfssl/csr"
+	"github.com/flowshield/cfssl/csr"
 )
 
 // A Root stores information about a trusted root.

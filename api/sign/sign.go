@@ -4,10 +4,10 @@ package sign
 import (
 	"net/http"
 
-	"github.com/cloudslit/cfssl/api/signhandler"
-	"github.com/cloudslit/cfssl/config"
-	"github.com/cloudslit/cfssl/log"
-	"github.com/cloudslit/cfssl/signer/universal"
+	"github.com/flowshield/cfssl/api/signhandler"
+	"github.com/flowshield/cfssl/config"
+	"github.com/flowshield/cfssl/log"
+	"github.com/flowshield/cfssl/signer/universal"
 )
 
 // NewHandler generates a new Handler using the certificate

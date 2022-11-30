@@ -25,9 +25,9 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/cloudslit/cfssl/csr"
-	"github.com/cloudslit/cfssl/helpers"
-	"github.com/cloudslit/cfssl/transport/core"
+	"github.com/flowshield/cfssl/csr"
+	"github.com/flowshield/cfssl/helpers"
+	"github.com/flowshield/cfssl/transport/core"
 )
 
 const (

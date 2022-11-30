@@ -3,7 +3,7 @@ package scan
 import (
 	"testing"
 
-	"github.com/cloudslit/cfssl/cli"
+	"github.com/flowshield/cfssl/cli"
 )
 
 var hosts = []string{"www.cloudflare.com", "google.com"}

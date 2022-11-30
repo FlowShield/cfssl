@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudslit/cfssl/certdb"
-	"github.com/cloudslit/cfssl/helpers"
+	"github.com/flowshield/cfssl/certdb"
+	"github.com/flowshield/cfssl/helpers"
 )
 
 // Certificate represents a JSON description of an X.509 certificate.

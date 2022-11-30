@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudslit/cfssl/certdb"
-	"github.com/cloudslit/cfssl/certdb/testdb"
+	"github.com/flowshield/cfssl/certdb"
+	"github.com/flowshield/cfssl/certdb/testdb"
 
 	"github.com/jmoiron/sqlx"
 	"github.com/stretchr/testify/require"

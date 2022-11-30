@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cloudslit/cfssl/helpers"
+	"github.com/flowshield/cfssl/helpers"
 )
 
 // DeprecationSeverity encodes the severity of a deprecation policy

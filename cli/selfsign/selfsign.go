@@ -8,12 +8,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/cloudslit/cfssl/cli"
-	"github.com/cloudslit/cfssl/cli/genkey"
-	"github.com/cloudslit/cfssl/config"
-	"github.com/cloudslit/cfssl/csr"
-	"github.com/cloudslit/cfssl/helpers"
-	"github.com/cloudslit/cfssl/selfsign"
+	"github.com/flowshield/cfssl/cli"
+	"github.com/flowshield/cfssl/cli/genkey"
+	"github.com/flowshield/cfssl/config"
+	"github.com/flowshield/cfssl/csr"
+	"github.com/flowshield/cfssl/helpers"
+	"github.com/flowshield/cfssl/selfsign"
 )
 
 var selfSignUsageText = `cfssl selfsign -- generate a new self-signed key and signed certificate

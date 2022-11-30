@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudslit/cfssl/api/client"
-	"github.com/cloudslit/cfssl/csr"
-	"github.com/cloudslit/cfssl/info"
-	"github.com/cloudslit/cfssl/log"
-	"github.com/cloudslit/cfssl/transport/core"
+	"github.com/flowshield/cfssl/api/client"
+	"github.com/flowshield/cfssl/csr"
+	"github.com/flowshield/cfssl/info"
+	"github.com/flowshield/cfssl/log"
+	"github.com/flowshield/cfssl/transport/core"
 )
 
 var (

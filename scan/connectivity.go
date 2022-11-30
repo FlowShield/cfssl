@@ -7,7 +7,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/cloudslit/cfssl/scan/crypto/tls"
+	"github.com/flowshield/cfssl/scan/crypto/tls"
 )
 
 // Connectivity contains scanners testing basic connectivity to the host

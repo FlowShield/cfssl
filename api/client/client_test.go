@@ -2,8 +2,8 @@ package client
 
 import (
 	"crypto/tls"
-	"github.com/cloudslit/cfssl/auth"
-	"github.com/cloudslit/cfssl/helpers"
+	"github.com/flowshield/cfssl/auth"
+	"github.com/flowshield/cfssl/helpers"
 	"net"
 	"strings"
 	"testing"

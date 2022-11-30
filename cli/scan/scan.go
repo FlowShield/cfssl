@@ -8,9 +8,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/cloudslit/cfssl/cli"
-	"github.com/cloudslit/cfssl/log"
-	"github.com/cloudslit/cfssl/scan"
+	"github.com/flowshield/cfssl/cli"
+	"github.com/flowshield/cfssl/log"
+	"github.com/flowshield/cfssl/scan"
 )
 
 var scanUsageText = `cfssl scan -- scan a host for issues

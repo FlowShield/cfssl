@@ -1,9 +1,9 @@
-//Package gencrl implements the gencrl command
+// Package gencrl implements the gencrl command
 package gencrl
 
 import (
-	"github.com/cloudslit/cfssl/cli"
-	"github.com/cloudslit/cfssl/crl"
+	"github.com/flowshield/cfssl/cli"
+	"github.com/flowshield/cfssl/crl"
 	"strings"
 )
 

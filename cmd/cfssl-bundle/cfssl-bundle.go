@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cloudslit/cfssl/cli"
-	"github.com/cloudslit/cfssl/cli/bundle"
-	"github.com/cloudslit/cfssl/config"
+	"github.com/flowshield/cfssl/cli"
+	"github.com/flowshield/cfssl/cli/bundle"
+	"github.com/flowshield/cfssl/config"
 )
 
 // main defines the bundle usage and registers all defined commands and flags.

@@ -25,12 +25,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudslit/cfssl/config"
-	"github.com/cloudslit/cfssl/csr"
-	cferr "github.com/cloudslit/cfssl/errors"
-	"github.com/cloudslit/cfssl/helpers"
-	"github.com/cloudslit/cfssl/log"
-	"github.com/cloudslit/cfssl/signer"
+	"github.com/flowshield/cfssl/config"
+	"github.com/flowshield/cfssl/csr"
+	cferr "github.com/flowshield/cfssl/errors"
+	"github.com/flowshield/cfssl/helpers"
+	"github.com/flowshield/cfssl/log"
+	"github.com/flowshield/cfssl/signer"
 	"github.com/google/certificate-transparency-go"
 	"github.com/zmap/zlint/v2/lint"
 )

@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudslit/cfssl/helpers"
-	"github.com/cloudslit/cfssl/log"
-	"github.com/cloudslit/cfssl/scan/crypto/tls"
+	"github.com/flowshield/cfssl/helpers"
+	"github.com/flowshield/cfssl/log"
+	"github.com/flowshield/cfssl/scan/crypto/tls"
 )
 
 var (

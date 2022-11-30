@@ -4,10 +4,10 @@ package bundle
 import (
 	"net/http"
 
-	"github.com/cloudslit/cfssl/api"
-	"github.com/cloudslit/cfssl/bundler"
-	"github.com/cloudslit/cfssl/errors"
-	"github.com/cloudslit/cfssl/log"
+	"github.com/flowshield/cfssl/api"
+	"github.com/flowshield/cfssl/bundler"
+	"github.com/flowshield/cfssl/errors"
+	"github.com/flowshield/cfssl/log"
 )
 
 // Handler accepts requests for either remote or uploaded

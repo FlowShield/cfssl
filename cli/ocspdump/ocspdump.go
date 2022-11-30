@@ -6,9 +6,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cloudslit/cfssl/certdb/dbconf"
-	"github.com/cloudslit/cfssl/certdb/sql"
-	"github.com/cloudslit/cfssl/cli"
+	"github.com/flowshield/cfssl/certdb/dbconf"
+	"github.com/flowshield/cfssl/certdb/sql"
+	"github.com/flowshield/cfssl/cli"
 )
 
 // Usage text of 'cfssl ocspdump'

@@ -4,13 +4,13 @@ package crl
 import (
 	"os"
 
-	"github.com/cloudslit/cfssl/certdb/dbconf"
-	certsql "github.com/cloudslit/cfssl/certdb/sql"
-	"github.com/cloudslit/cfssl/cli"
-	"github.com/cloudslit/cfssl/crl"
-	cferr "github.com/cloudslit/cfssl/errors"
-	"github.com/cloudslit/cfssl/helpers"
-	"github.com/cloudslit/cfssl/log"
+	"github.com/flowshield/cfssl/certdb/dbconf"
+	certsql "github.com/flowshield/cfssl/certdb/sql"
+	"github.com/flowshield/cfssl/cli"
+	"github.com/flowshield/cfssl/crl"
+	cferr "github.com/flowshield/cfssl/errors"
+	"github.com/flowshield/cfssl/helpers"
+	"github.com/flowshield/cfssl/log"
 
 	"github.com/jmoiron/sqlx"
 )

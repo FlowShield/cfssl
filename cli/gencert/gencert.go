@@ -5,14 +5,14 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/cloudslit/cfssl/api/generator"
-	"github.com/cloudslit/cfssl/cli"
-	"github.com/cloudslit/cfssl/cli/genkey"
-	"github.com/cloudslit/cfssl/cli/sign"
-	"github.com/cloudslit/cfssl/csr"
-	"github.com/cloudslit/cfssl/initca"
-	"github.com/cloudslit/cfssl/log"
-	"github.com/cloudslit/cfssl/signer"
+	"github.com/flowshield/cfssl/api/generator"
+	"github.com/flowshield/cfssl/cli"
+	"github.com/flowshield/cfssl/cli/genkey"
+	"github.com/flowshield/cfssl/cli/sign"
+	"github.com/flowshield/cfssl/csr"
+	"github.com/flowshield/cfssl/initca"
+	"github.com/flowshield/cfssl/log"
+	"github.com/flowshield/cfssl/signer"
 )
 
 var gencertUsageText = `cfssl gencert -- generate a new key and signed certificate

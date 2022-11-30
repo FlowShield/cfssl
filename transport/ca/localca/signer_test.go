@@ -6,11 +6,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cloudslit/cfssl/config"
-	"github.com/cloudslit/cfssl/csr"
-	"github.com/cloudslit/cfssl/helpers"
-	"github.com/cloudslit/cfssl/initca"
-	"github.com/cloudslit/cfssl/selfsign"
+	"github.com/flowshield/cfssl/config"
+	"github.com/flowshield/cfssl/csr"
+	"github.com/flowshield/cfssl/helpers"
+	"github.com/flowshield/cfssl/initca"
+	"github.com/flowshield/cfssl/selfsign"
 	"github.com/kisom/goutils/assert"
 )
 

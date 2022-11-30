@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/cloudslit/cfssl/api"
-	"github.com/cloudslit/cfssl/certdb"
-	"github.com/cloudslit/cfssl/errors"
-	"github.com/cloudslit/cfssl/helpers"
-	"github.com/cloudslit/cfssl/ocsp"
+	"github.com/flowshield/cfssl/api"
+	"github.com/flowshield/cfssl/certdb"
+	"github.com/flowshield/cfssl/errors"
+	"github.com/flowshield/cfssl/helpers"
+	"github.com/flowshield/cfssl/ocsp"
 
 	stdocsp "golang.org/x/crypto/ocsp"
 )

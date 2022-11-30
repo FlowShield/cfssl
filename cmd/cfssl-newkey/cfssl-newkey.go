@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cloudslit/cfssl/cli"
-	"github.com/cloudslit/cfssl/cli/genkey"
-	"github.com/cloudslit/cfssl/config"
+	"github.com/flowshield/cfssl/cli"
+	"github.com/flowshield/cfssl/cli/genkey"
+	"github.com/flowshield/cfssl/config"
 )
 
 // main defines the newkey usage and registers all defined commands and flags.

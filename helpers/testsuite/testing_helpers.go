@@ -15,8 +15,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudslit/cfssl/config"
-	"github.com/cloudslit/cfssl/csr"
+	"github.com/flowshield/cfssl/config"
+	"github.com/flowshield/cfssl/csr"
 )
 
 // CFSSLServerData is the data with which a server is initialized. These fields

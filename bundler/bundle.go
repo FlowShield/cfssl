@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cloudslit/cfssl/helpers"
+	"github.com/flowshield/cfssl/helpers"
 )
 
 // A Bundle contains a certificate and its trust chain. It is intended
