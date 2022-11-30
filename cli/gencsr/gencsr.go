@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/cloudslit/cfssl/cli"
-	"github.com/cloudslit/cfssl/csr"
-	"github.com/cloudslit/cfssl/helpers"
-	"github.com/cloudslit/cfssl/signer"
+	"github.com/flowshield/cfssl/cli"
+	"github.com/flowshield/cfssl/csr"
+	"github.com/flowshield/cfssl/helpers"
+	"github.com/flowshield/cfssl/signer"
 )
 
 var gencsrUsageText = `cfssl gencsr -- generate a csr from a private key with existing CSR json specification or certificate

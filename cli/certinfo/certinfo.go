@@ -7,10 +7,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cloudslit/cfssl/certdb/dbconf"
-	"github.com/cloudslit/cfssl/certdb/sql"
-	"github.com/cloudslit/cfssl/certinfo"
-	"github.com/cloudslit/cfssl/cli"
+	"github.com/flowshield/cfssl/certdb/dbconf"
+	"github.com/flowshield/cfssl/certdb/sql"
+	"github.com/flowshield/cfssl/certinfo"
+	"github.com/flowshield/cfssl/cli"
 	"github.com/jmoiron/sqlx"
 )
 

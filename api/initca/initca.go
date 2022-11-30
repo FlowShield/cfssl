@@ -6,11 +6,11 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/cloudslit/cfssl/api"
-	"github.com/cloudslit/cfssl/csr"
-	"github.com/cloudslit/cfssl/errors"
-	"github.com/cloudslit/cfssl/initca"
-	"github.com/cloudslit/cfssl/log"
+	"github.com/flowshield/cfssl/api"
+	"github.com/flowshield/cfssl/csr"
+	"github.com/flowshield/cfssl/errors"
+	"github.com/flowshield/cfssl/initca"
+	"github.com/flowshield/cfssl/log"
 )
 
 // A NewCA contains a private key and certificate suitable for serving

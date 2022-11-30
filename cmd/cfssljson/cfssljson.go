@@ -10,7 +10,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/cloudslit/cfssl/cli/version"
+	"github.com/flowshield/cfssl/cli/version"
 )
 
 func readFile(filespec string) ([]byte, error) {

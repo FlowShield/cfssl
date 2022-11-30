@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/cloudslit/cfssl/api/client"
-	"github.com/cloudslit/cfssl/helpers"
-	"github.com/cloudslit/cfssl/info"
-	"github.com/cloudslit/cfssl/log"
+	"github.com/flowshield/cfssl/api/client"
+	"github.com/flowshield/cfssl/helpers"
+	"github.com/flowshield/cfssl/info"
+	"github.com/flowshield/cfssl/log"
 )
 
 // This package contains CFSSL integration.

@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/cloudslit/cfssl/errors"
-	"github.com/cloudslit/cfssl/log"
+	"github.com/flowshield/cfssl/errors"
+	"github.com/flowshield/cfssl/log"
 )
 
 // Handler is an interface providing a generic mechanism for handling HTTP requests.

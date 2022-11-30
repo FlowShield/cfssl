@@ -8,7 +8,7 @@ import (
 	"crypto/x509"
 	"time"
 
-	"github.com/cloudslit/cfssl/helpers"
+	"github.com/flowshield/cfssl/helpers"
 )
 
 // Compute the priority of different hash algorithm based on security

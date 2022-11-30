@@ -3,7 +3,7 @@ package version
 import (
 	"testing"
 
-	"github.com/cloudslit/cfssl/cli"
+	"github.com/flowshield/cfssl/cli"
 )
 
 func TestVersionMain(t *testing.T) {

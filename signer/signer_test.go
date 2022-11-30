@@ -9,8 +9,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/cloudslit/cfssl/config"
-	"github.com/cloudslit/cfssl/csr"
+	"github.com/flowshield/cfssl/config"
+	"github.com/flowshield/cfssl/csr"
 )
 
 func TestAppendIf(t *testing.T) {

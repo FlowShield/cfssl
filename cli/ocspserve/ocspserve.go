@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/cloudslit/cfssl/cli"
-	"github.com/cloudslit/cfssl/log"
-	"github.com/cloudslit/cfssl/ocsp"
+	"github.com/flowshield/cfssl/cli"
+	"github.com/flowshield/cfssl/log"
+	"github.com/flowshield/cfssl/ocsp"
 )
 
 // Usage text of 'cfssl serve'

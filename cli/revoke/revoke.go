@@ -4,11 +4,11 @@ package revoke
 import (
 	"errors"
 
-	"github.com/cloudslit/cfssl/certdb/dbconf"
-	"github.com/cloudslit/cfssl/certdb/sql"
-	"github.com/cloudslit/cfssl/cli"
-	"github.com/cloudslit/cfssl/log"
-	"github.com/cloudslit/cfssl/ocsp"
+	"github.com/flowshield/cfssl/certdb/dbconf"
+	"github.com/flowshield/cfssl/certdb/sql"
+	"github.com/flowshield/cfssl/cli"
+	"github.com/flowshield/cfssl/log"
+	"github.com/flowshield/cfssl/ocsp"
 )
 
 var revokeUsageTxt = `cfssl revoke -- revoke a certificate in the certificate store

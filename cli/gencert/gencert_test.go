@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cloudslit/cfssl/cli"
+	"github.com/flowshield/cfssl/cli"
 )
 
 func TestGencertMain(t *testing.T) {

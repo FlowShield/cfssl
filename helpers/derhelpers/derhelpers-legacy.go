@@ -11,7 +11,7 @@ import (
 	"crypto/rsa"
 	"crypto/x509"
 
-	cferr "github.com/cloudslit/cfssl/errors"
+	cferr "github.com/flowshield/cfssl/errors"
 	"golang.org/x/crypto/ed25519"
 )
 

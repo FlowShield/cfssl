@@ -16,10 +16,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudslit/cfssl/certdb"
-	"github.com/cloudslit/cfssl/certdb/sql"
-	"github.com/cloudslit/cfssl/certdb/testdb"
-	"github.com/cloudslit/cfssl/ocsp"
+	"github.com/flowshield/cfssl/certdb"
+	"github.com/flowshield/cfssl/certdb/sql"
+	"github.com/flowshield/cfssl/certdb/testdb"
+	"github.com/flowshield/cfssl/ocsp"
 
 	"encoding/base64"
 

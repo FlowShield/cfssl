@@ -5,10 +5,10 @@ import (
 	"io/ioutil"
 	"time"
 
-	"github.com/cloudslit/cfssl/cli"
-	"github.com/cloudslit/cfssl/helpers"
-	"github.com/cloudslit/cfssl/log"
-	"github.com/cloudslit/cfssl/ocsp"
+	"github.com/flowshield/cfssl/cli"
+	"github.com/flowshield/cfssl/helpers"
+	"github.com/flowshield/cfssl/log"
+	"github.com/flowshield/cfssl/ocsp"
 )
 
 // Usage text of 'cfssl ocspsign'

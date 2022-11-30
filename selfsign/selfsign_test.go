@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudslit/cfssl/config"
-	"github.com/cloudslit/cfssl/helpers"
+	"github.com/flowshield/cfssl/config"
+	"github.com/flowshield/cfssl/helpers"
 )
 
 const (

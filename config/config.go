@@ -14,11 +14,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudslit/cfssl/auth"
-	cferr "github.com/cloudslit/cfssl/errors"
-	"github.com/cloudslit/cfssl/helpers"
-	"github.com/cloudslit/cfssl/log"
-	ocspConfig "github.com/cloudslit/cfssl/ocsp/config"
+	"github.com/flowshield/cfssl/auth"
+	cferr "github.com/flowshield/cfssl/errors"
+	"github.com/flowshield/cfssl/helpers"
+	"github.com/flowshield/cfssl/log"
+	ocspConfig "github.com/flowshield/cfssl/ocsp/config"
 	// empty import of zlint/v2 required to have lints registered.
 	_ "github.com/zmap/zlint/v2"
 	"github.com/zmap/zlint/v2/lint"

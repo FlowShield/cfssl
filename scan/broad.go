@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudslit/cfssl/bundler"
+	"github.com/flowshield/cfssl/bundler"
 )
 
 // Broad contains scanners for large swaths of TLS hosts on the internet.

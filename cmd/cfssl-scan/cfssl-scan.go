@@ -6,9 +6,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/cloudslit/cfssl/cli"
-	"github.com/cloudslit/cfssl/cli/scan"
-	"github.com/cloudslit/cfssl/config"
+	"github.com/flowshield/cfssl/cli"
+	"github.com/flowshield/cfssl/cli/scan"
+	"github.com/flowshield/cfssl/config"
 )
 
 // main defines the scan usage and registers all defined commands and flags.

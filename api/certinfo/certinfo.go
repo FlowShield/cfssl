@@ -5,10 +5,10 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/cloudslit/cfssl/api"
-	"github.com/cloudslit/cfssl/certdb"
-	"github.com/cloudslit/cfssl/certinfo"
-	"github.com/cloudslit/cfssl/log"
+	"github.com/flowshield/cfssl/api"
+	"github.com/flowshield/cfssl/certdb"
+	"github.com/flowshield/cfssl/certinfo"
+	"github.com/flowshield/cfssl/log"
 )
 
 // Handler accepts requests for either remote or uploaded

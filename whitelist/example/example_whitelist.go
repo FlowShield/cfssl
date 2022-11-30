@@ -8,7 +8,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/cloudslit/cfssl/whitelist"
+	"github.com/flowshield/cfssl/whitelist"
 )
 
 var wl = whitelist.NewBasic()

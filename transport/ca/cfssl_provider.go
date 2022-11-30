@@ -9,13 +9,13 @@ import (
 	"net"
 	"path/filepath"
 
-	"github.com/cloudslit/cfssl/api/client"
-	"github.com/cloudslit/cfssl/auth"
-	"github.com/cloudslit/cfssl/config"
-	"github.com/cloudslit/cfssl/helpers"
-	"github.com/cloudslit/cfssl/info"
-	"github.com/cloudslit/cfssl/signer"
-	"github.com/cloudslit/cfssl/transport/core"
+	"github.com/flowshield/cfssl/api/client"
+	"github.com/flowshield/cfssl/auth"
+	"github.com/flowshield/cfssl/config"
+	"github.com/flowshield/cfssl/helpers"
+	"github.com/flowshield/cfssl/info"
+	"github.com/flowshield/cfssl/signer"
+	"github.com/flowshield/cfssl/transport/core"
 )
 
 type authError struct {

@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/cloudslit/cfssl/api"
-	"github.com/cloudslit/cfssl/errors"
-	"github.com/cloudslit/cfssl/log"
-	"github.com/cloudslit/cfssl/scan"
+	"github.com/flowshield/cfssl/api"
+	"github.com/flowshield/cfssl/errors"
+	"github.com/flowshield/cfssl/log"
+	"github.com/flowshield/cfssl/scan"
 )
 
 // scanHandler is an HTTP handler that accepts GET parameters for host (required)

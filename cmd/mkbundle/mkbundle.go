@@ -2,6 +2,7 @@
 // All certificates in the input file paths are checked for revocation and bundled together.
 //
 // Usage:
+//
 //	mkbundle -f bundle_file -nw number_of_workers certificate_file_path ...
 package main
 
@@ -14,8 +15,8 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/cloudslit/cfssl/log"
-	"github.com/cloudslit/cfssl/revoke"
+	"github.com/flowshield/cfssl/log"
+	"github.com/flowshield/cfssl/revoke"
 )
 
 // worker does all the parsing and validation of the certificate(s)

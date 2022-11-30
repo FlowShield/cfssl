@@ -33,7 +33,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/cloudslit/cfssl/config"
+	"github.com/flowshield/cfssl/config"
 )
 
 // Command holds the implementation details of a cfssl command.

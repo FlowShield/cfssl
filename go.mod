@@ -1,4 +1,4 @@
-module github.com/cloudslit/cfssl
+module github.com/flowshield/cfssl
 
 go 1.14
 

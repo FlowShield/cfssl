@@ -12,8 +12,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/cloudslit/cfssl/errors"
-	"github.com/cloudslit/cfssl/helpers"
+	"github.com/flowshield/cfssl/errors"
+	"github.com/flowshield/cfssl/helpers"
 )
 
 //TestNew validate the CertificateRequest created to return with a KeyRequest

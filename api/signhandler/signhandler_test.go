@@ -8,13 +8,13 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/cloudslit/cfssl/api"
-	"github.com/cloudslit/cfssl/certdb"
-	"github.com/cloudslit/cfssl/certdb/sql"
-	"github.com/cloudslit/cfssl/certdb/testdb"
-	"github.com/cloudslit/cfssl/config"
-	"github.com/cloudslit/cfssl/signer"
-	"github.com/cloudslit/cfssl/signer/local"
+	"github.com/flowshield/cfssl/api"
+	"github.com/flowshield/cfssl/certdb"
+	"github.com/flowshield/cfssl/certdb/sql"
+	"github.com/flowshield/cfssl/certdb/testdb"
+	"github.com/flowshield/cfssl/config"
+	"github.com/flowshield/cfssl/signer"
+	"github.com/flowshield/cfssl/signer/local"
 )
 
 const (

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudslit/cfssl/auth"
-	"github.com/cloudslit/cfssl/info"
+	"github.com/flowshield/cfssl/auth"
+	"github.com/flowshield/cfssl/info"
 )
 
 // Strategy is the means by which the server to use as a remote should

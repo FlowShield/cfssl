@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cloudslit/cfssl/cli"
-	"github.com/cloudslit/cfssl/cli/certinfo"
-	"github.com/cloudslit/cfssl/config"
+	"github.com/flowshield/cfssl/cli"
+	"github.com/flowshield/cfssl/cli/certinfo"
+	"github.com/flowshield/cfssl/config"
 
 	_ "github.com/go-sql-driver/mysql" // import to support MySQL
 	_ "github.com/lib/pq"              // import to support Postgres

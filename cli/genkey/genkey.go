@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/cloudslit/cfssl/cli"
-	"github.com/cloudslit/cfssl/csr"
-	"github.com/cloudslit/cfssl/initca"
+	"github.com/flowshield/cfssl/cli"
+	"github.com/flowshield/cfssl/csr"
+	"github.com/flowshield/cfssl/initca"
 )
 
 var genkeyUsageText = `cfssl genkey -- generate a new key and CSR

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cloudslit/cfssl/certdb"
-	cferr "github.com/cloudslit/cfssl/errors"
+	"github.com/flowshield/cfssl/certdb"
+	cferr "github.com/flowshield/cfssl/errors"
 
 	"github.com/jmoiron/sqlx"
 	"github.com/kisielk/sqlstruct"

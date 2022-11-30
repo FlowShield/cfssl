@@ -8,12 +8,12 @@ import (
 	"net/http/httputil"
 
 	metrics "github.com/cloudflare/go-metrics"
-	"github.com/cloudslit/cfssl/api"
-	"github.com/cloudslit/cfssl/auth"
-	"github.com/cloudslit/cfssl/helpers"
-	"github.com/cloudslit/cfssl/log"
-	"github.com/cloudslit/cfssl/signer"
-	"github.com/cloudslit/cfssl/whitelist"
+	"github.com/flowshield/cfssl/api"
+	"github.com/flowshield/cfssl/auth"
+	"github.com/flowshield/cfssl/helpers"
+	"github.com/flowshield/cfssl/log"
+	"github.com/flowshield/cfssl/signer"
+	"github.com/flowshield/cfssl/whitelist"
 )
 
 // A SignatureResponse contains only a certificate, as there is no other

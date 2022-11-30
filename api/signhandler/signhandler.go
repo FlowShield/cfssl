@@ -7,12 +7,12 @@ import (
 	"math/big"
 	"net/http"
 
-	"github.com/cloudslit/cfssl/api"
-	"github.com/cloudslit/cfssl/auth"
-	"github.com/cloudslit/cfssl/bundler"
-	"github.com/cloudslit/cfssl/errors"
-	"github.com/cloudslit/cfssl/log"
-	"github.com/cloudslit/cfssl/signer"
+	"github.com/flowshield/cfssl/api"
+	"github.com/flowshield/cfssl/auth"
+	"github.com/flowshield/cfssl/bundler"
+	"github.com/flowshield/cfssl/errors"
+	"github.com/flowshield/cfssl/log"
+	"github.com/flowshield/cfssl/signer"
 )
 
 // NoBundlerMessage is used to alert the user that the server does not have a bundler initialized.

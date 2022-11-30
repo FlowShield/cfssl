@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/cloudslit/cfssl/cli"
+	"github.com/flowshield/cfssl/cli"
 )
 
 var (

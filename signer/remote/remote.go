@@ -6,13 +6,13 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/cloudslit/cfssl/api/client"
-	"github.com/cloudslit/cfssl/certdb"
-	"github.com/cloudslit/cfssl/config"
-	cferr "github.com/cloudslit/cfssl/errors"
-	"github.com/cloudslit/cfssl/helpers"
-	"github.com/cloudslit/cfssl/info"
-	"github.com/cloudslit/cfssl/signer"
+	"github.com/flowshield/cfssl/api/client"
+	"github.com/flowshield/cfssl/certdb"
+	"github.com/flowshield/cfssl/config"
+	cferr "github.com/flowshield/cfssl/errors"
+	"github.com/flowshield/cfssl/helpers"
+	"github.com/flowshield/cfssl/info"
+	"github.com/flowshield/cfssl/signer"
 )
 
 // A Signer represents a CFSSL instance running as signing server.

@@ -15,11 +15,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudslit/cfssl/api"
-	"github.com/cloudslit/cfssl/auth"
-	"github.com/cloudslit/cfssl/errors"
-	"github.com/cloudslit/cfssl/info"
-	"github.com/cloudslit/cfssl/log"
+	"github.com/flowshield/cfssl/api"
+	"github.com/flowshield/cfssl/auth"
+	"github.com/flowshield/cfssl/errors"
+	"github.com/flowshield/cfssl/info"
+	"github.com/flowshield/cfssl/log"
 )
 
 // A server points to a single remote CFSSL instance.

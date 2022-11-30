@@ -3,7 +3,7 @@ package gencrl
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/cloudslit/cfssl/api"
+	"github.com/flowshield/cfssl/api"
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"

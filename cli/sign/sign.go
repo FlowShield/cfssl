@@ -6,13 +6,13 @@ import (
 	"errors"
 	"io/ioutil"
 
-	"github.com/cloudslit/cfssl/certdb/dbconf"
-	certsql "github.com/cloudslit/cfssl/certdb/sql"
-	"github.com/cloudslit/cfssl/cli"
-	"github.com/cloudslit/cfssl/config"
-	"github.com/cloudslit/cfssl/log"
-	"github.com/cloudslit/cfssl/signer"
-	"github.com/cloudslit/cfssl/signer/universal"
+	"github.com/flowshield/cfssl/certdb/dbconf"
+	certsql "github.com/flowshield/cfssl/certdb/sql"
+	"github.com/flowshield/cfssl/cli"
+	"github.com/flowshield/cfssl/config"
+	"github.com/flowshield/cfssl/log"
+	"github.com/flowshield/cfssl/signer"
+	"github.com/flowshield/cfssl/signer/universal"
 
 	"github.com/jmoiron/sqlx"
 )

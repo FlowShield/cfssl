@@ -11,14 +11,14 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/cloudslit/cfssl/api"
-	"github.com/cloudslit/cfssl/bundler"
-	"github.com/cloudslit/cfssl/config"
-	"github.com/cloudslit/cfssl/csr"
-	"github.com/cloudslit/cfssl/errors"
-	"github.com/cloudslit/cfssl/log"
-	"github.com/cloudslit/cfssl/signer"
-	"github.com/cloudslit/cfssl/signer/universal"
+	"github.com/flowshield/cfssl/api"
+	"github.com/flowshield/cfssl/bundler"
+	"github.com/flowshield/cfssl/config"
+	"github.com/flowshield/cfssl/csr"
+	"github.com/flowshield/cfssl/errors"
+	"github.com/flowshield/cfssl/log"
+	"github.com/flowshield/cfssl/signer"
+	"github.com/flowshield/cfssl/signer/universal"
 )
 
 const (
