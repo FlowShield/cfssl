@@ -20,8 +20,8 @@ import (
 	"github.com/flowshield/cfssl/log"
 	ocspConfig "github.com/flowshield/cfssl/ocsp/config"
 	// empty import of zlint/v2 required to have lints registered.
-	_ "github.com/zmap/zlint/v2"
-	"github.com/zmap/zlint/v2/lint"
+	_ "github.com/zmap/zlint/v3"
+	"github.com/zmap/zlint/v3/lint"
 )
 
 // A CSRWhitelist stores booleans for fields in the CSR. If a CSRWhitelist is
